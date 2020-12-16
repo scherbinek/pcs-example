@@ -1,0 +1,11 @@
+{
+    "host": "<sql endpoint>",
+    "port": "443",
+    "user": "DBADMIN",
+    "password": "<password>",
+    "driver": "com.sap.db.jdbc.Driver",
+    "tags": [
+        "hana"
+    ],
+    "endpoint": "https://api.cf.eu10.hana.ondemand.com"
+}
