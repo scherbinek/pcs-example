@@ -1,0 +1,5 @@
+OUTLOOK,TEMP,HUMIDITY,WINDY,LABEL
+Sunny,75.0,70.0,Yes,Play
+Sunny,NaN,90.0,Yes,Do not Play
+Sunny,85.0,NaN,No,Do not Play
+Sunny,72.0,95.0,No,Do not Play
