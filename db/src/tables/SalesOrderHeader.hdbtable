@@ -1,0 +1,17 @@
+column table "pcs-example.db.tables::SalesOrderHeader"(
+  "SALESORDERID" nvarchar(10) PRIMARY KEY,
+  "CREATEDBY" nvarchar(10),
+  "CREATEDAT" date,
+  "CHANGEDBY" nvarchar(10),
+  "CHANGEDAT" date,
+  "NOTEID" nvarchar(10) DEFAULT null,
+  "PARTNERID" nvarchar(10),
+  "CURRENCY" nvarchar(5),
+  "GROSSAMOUNT" double,
+  "NETAMOUNT" double,
+  "TAXAMOUNT" double,
+  "WEIGHTMEASURE" double,
+  "LIFECYCLESTATUS" nvarchar(1),
+  "BILLINGSTATUS" nvarchar(1),
+  "DELIVERYSTATUS" nvarchar(1)
+)
