@@ -1,0 +1,23 @@
+column table "pcs-example.db.tables::Products"(
+  "PRODUCTID" nvarchar(10) PRIMARY KEY,
+  "TYPECODE" nvarchar(2),
+  "CATEGORY" nvarchar(40),
+  "CREATEDBY" nvarchar(10),
+  "CREATEDAT" date,
+  "CHANGEDBY" nvarchar(10),
+  "CHANGEDAT" date,
+  "NAMEID" nvarchar(10),
+  "DESCID" nvarchar(10),
+  "SUPPLIERID" nvarchar(10),
+  "TAXTARIFFCODE" integer,
+  "QUANTITYUNIT" nvarchar(3),
+  "WEIGHTMEASURE" double,
+  "WEIGHTUNIT" nvarchar(3),
+  "CURRENCY" nvarchar(5),
+  "PRICE" double,
+  "PRODUCTPICURL" nvarchar(255) DEFAULT null,
+  "WIDTH" double,
+  "DEPTH" double,
+  "HEIGHT" double,
+  "DIMENSIONUNIT" nvarchar(3)
+)
