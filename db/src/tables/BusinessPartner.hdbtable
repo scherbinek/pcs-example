@@ -1,0 +1,16 @@
+column table "pcs-example.db.tables::BusinessPartner"(
+  "PARTNERID" nvarchar(10) PRIMARY KEY,
+  "PARTNERROLE" nvarchar(3),
+  "EMAILADDRESS" nvarchar(255),
+  "PHONENUMBER" nvarchar(30),
+  "FAXNUMBER" nvarchar(30) DEFAULT null,
+  "WEBADDRESS" nvarchar(1024),
+  "ADDRESSID" nvarchar(10),
+  "COMPANYNAME" nvarchar(80),
+  "LEGALFORM" nvarchar(10),
+  "CREATEDBY" nvarchar(10),
+  "CREATEDAT" date,
+  "CHANGEDBY" nvarchar(10),
+  "CHANGEDAT" date,
+  "CURRENCY" nvarchar(5)
+)
