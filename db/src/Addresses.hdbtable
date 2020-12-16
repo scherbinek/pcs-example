@@ -1,0 +1,14 @@
+column table "ADDRESSES"(
+  "ADDRESSID" nvarchar(10) PRIMARY KEY,
+  "CITY" nvarchar(40),
+  "POSTALCODE" nvarchar(10),
+  "STREET" nvarchar(60),
+  "BUILDING" nvarchar(10),
+  "COUNTRY" nvarchar(3),
+  "REGION" nvarchar(4),
+  "ADDRESSTYPE" nvarchar(2),
+  "STARTDATE" date,
+  "ENDDATE" date,
+  "LATITUDE" double,
+  "LONGITUDE" double 
+)
