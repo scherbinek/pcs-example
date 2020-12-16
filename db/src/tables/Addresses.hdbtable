@@ -1,4 +1,4 @@
-column table "ADDRESSES"(
+column table "pcs-example.db.tables::Addresses"(
   "ADDRESSID" nvarchar(10) PRIMARY KEY,
   "CITY" nvarchar(40),
   "POSTALCODE" nvarchar(10),
