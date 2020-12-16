@@ -1,0 +1,21 @@
+column table "pcs-example.db.tables::Employees"(
+  "EMPLOYEEID" nvarchar(10) PRIMARY KEY,
+  "FIRST" nvarchar(40),
+  "MIDDLE" nvarchar(40),
+  "LAST" nvarchar(40),
+  "INITIALS" nvarchar(10),
+  "SEX" nvarchar(1),
+  "LANGUAGE" nvarchar(1),
+  "PHONENUMBER" nvarchar(30),
+  "EMAILADDRESS" nvarchar(255),
+  "LOGINNAME" nvarchar(12),
+  "ADDRESSID" nvarchar(10),
+  "STARTDATE" date,
+  "ENDDATE" date,
+  "CURRENCY" nvarchar(5),
+  "SALARYAMOUNT" double,
+  "ACCOUNTNUMBER" nvarchar(10),
+  "BANKID" nvarchar(10),
+  "BANKNAME" nvarchar(255),
+  "EMPLOYEEPICURL" nvarchar(255)
+)
