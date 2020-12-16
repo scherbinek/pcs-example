@@ -10,7 +10,6 @@ column table "pcs-example.db.tables::SalesOrderHeader"(
   "GROSSAMOUNT" double,
   "NETAMOUNT" double,
   "TAXAMOUNT" double,
-  "WEIGHTMEASURE" double,
   "LIFECYCLESTATUS" nvarchar(1),
   "BILLINGSTATUS" nvarchar(1),
   "DELIVERYSTATUS" nvarchar(1)

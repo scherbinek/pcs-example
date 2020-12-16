@@ -1,0 +1,16 @@
+column table "pcs-example.db.tables::SalesOrderItem"(
+  "SALESORDERID" nvarchar(10),
+  "SALESORDERITEM" nvarchar(10),
+  "PRODUCTID" nvarchar(10),
+  "NOTEID" nvarchar(10) DEFAULT null,
+  "CURRENCY" nvarchar(5),
+  "GROSSAMOUNT" double,
+  "NETAMOUNT" double,
+  "TAXAMOUNT" double,
+  "ITEMATPSTATUS" nvarchar(1),
+  "OPITEMPOS" nvarchar(10) DEFAULT null,
+  "QUANTITY" double,
+  "QUANTITYUNIT" nvarchar(3),
+  "DELIVERYDATE" date,
+  PRIMARY KEY ("SALESORDERID", "SALESORDERITEM")
+)
