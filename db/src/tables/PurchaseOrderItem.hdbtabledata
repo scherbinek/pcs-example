@@ -1,0 +1,20 @@
+{
+    "format_version": 1,
+    "imports": 
+    [
+        {
+            "target_table": "pcs-example.db.tables::PurchaseOrderItem",
+            "source_data": 
+            {
+                "data_type": "CSV",
+                "file_name": "pcs-example.db.tables.data::purchaseOrderItem.csv",
+                "has_header": true
+            },
+            "import_settings": 
+              {
+                "include_filter": [], 
+                "import_columns": []
+              }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "format_version": 1,
+    "imports": 
+    [
+        {
+            "target_table": "pcs-example.db.tables::Addresses",
+            "source_data": 
+            {
+                "data_type": "CSV",
+                "file_name": "pcs-example.db.tables.data::addresses.csv",
+                "has_header": false
+            },
+            "import_settings": 
+              {
+                "include_filter": [], 
+                "import_columns": []
+              },
+              
+            "column_mappings" : {   
+									"ADDRESSID" : 1, 
+									"CITY" : 2,
+									"POSTALCODE" : 3,
+									"STREET" : 4,
+									"BUILDING" : 5,
+									"COUNTRY" : 6,
+									"REGION" : 7,
+									"ADDRESSTYPE" : 8,
+									"STARTDATE" : 9,
+									"ENDDATE" : 10,
+									"LATITUDE" : 11,
+									"LONGITUDE" : 12 
+								}
+        }
+    ]
+}

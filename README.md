@@ -18,7 +18,6 @@ https://github.com/scherbinek/pcs-example.git <br>
 (Right-click imported project for the build process) <br>
 
 ### Open HDI Container
-Right-click db -- Open HDI Container -- SQL Console <br>
-Paste Inseert statements of /sql/01-insert-data.sql of the project
+Right-click db -- Open HDI Container -- SQL Console
 </p>
 Source Data: https://github.com/SAP-samples/cloud-hana-shine-sp8
