@@ -12,7 +12,7 @@ Space → SAP HANA Cloud → Create Database <br>
 ### Creating User-Provieded Service (HDI Containter to Non-HDI Container)
 Space → Service Instances → Create Instance → Create User-Provided Service Instance <br>
 grant-service.json <br>
-(The definition is later used in the pcs-example project, see also mta.yaml as cross-container-service-1) <br> <br>
+(The definition is later used in the pcs-example project, see also mta.yaml as cross-container-service-1) <br>
 
 ### Clone Project 
 Right-Click Workspace → Git → Clone Repository <br>
