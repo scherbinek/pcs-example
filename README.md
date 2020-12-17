@@ -1,5 +1,7 @@
 # PCS Beratungscontor AG Sample
 ## Sample Project for SAP HANA Cloud Deployment and WebIDE Development
+Introduction for setup: https://developers.sap.com/tutorials/hana-trial-advanced-analytics.html <br>
+Example data source: https://github.com/SAP-samples/cloud-hana-shine-sp8 <br>
 
 ### Limitations of the SAP HANA Cloud
 * HANA CDS is not supported with SAP HANA Cloud
@@ -20,4 +22,3 @@ https://github.com/scherbinek/pcs-example.git <br>
 ### Open HDI Container
 Right-click db -- Open HDI Container -- SQL Console
 </p>
-Source Data: https://github.com/SAP-samples/cloud-hana-shine-sp8
