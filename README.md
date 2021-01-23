@@ -4,7 +4,14 @@ Introduction for setup: https://developers.sap.com/tutorials/hana-trial-advanced
 Example data source: https://github.com/SAP-samples/cloud-hana-shine-sp8 <br>
 
 ### Limitations of the SAP HANA Cloud
-* HANA CDS is not supported with SAP HANA Cloud
+* HANA CDS is not supported with SAP HANA Cloud. Therefore HDB Tables are used for backward compatibility on any SAP HANA.
+
+### Limitations of HDI Calculation Views
+* HDI Calculation Views for integration in CompositeProvider are supported with BW/4HANA 2.0 (after setup in SPRO)
+
+### Alternative to Git-based Repositories
+* It's possible to use 'HTA for HDI' for developing HDI objects in ABAP development systems (not part of this setup)
+* See also SAP Note 2569651
 
 ### Creating SAP HANA Cloud Instance
 Space → SAP HANA Cloud → Create Database <br>
@@ -22,5 +29,4 @@ https://github.com/scherbinek/pcs-example.git <br>
 ### Open HDI Container
 Right-click db → Open HDI Container
 
-Test
 </p>
